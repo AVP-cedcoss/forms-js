@@ -74,6 +74,11 @@ function logic(name, age, weight)
             result = underWeight(name, age, weight);
     }
 
+    else
+    {
+        result = "Kindly Provide Details within the specified Limit";
+    }
+
     return result;
 }
 
